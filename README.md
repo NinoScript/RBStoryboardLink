@@ -4,6 +4,11 @@
 
 It now uses the NavigationItem's title instead of User Defined Runtime Attributes, that means you can visually know where it'll jump to right from the StoryBoard
 
+To install, use CocoaPods with the following line on the Podfile:
+
+    pod 'RBStoryboardLink', :git => 'https://github.com/NinoScript/RBStoryboardLink'
+
+
 ## Summary
 
 `UIStoryboards` are very powerful and useful. However, to make the best use of storyboards, they need to be broken down into natural modules. The problem with having many storyboards is writing the code to transition between them. `RBStoryboardLink` solves this problem by allowing "pseudo-segues" between `UIStoryboards`. These segues can be built without leaving Interface Builder and without writing any extra code. 
