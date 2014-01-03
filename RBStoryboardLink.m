@@ -37,19 +37,20 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     
-    NSAssert([self.storyboardName length], @"No storyboard name");
+    NSAssert([self.navigationItem.title length], @"No storyboard name, use the navigation title");
     
     UIStoryboard * storyboard;
-    NSString *storyboardName = self.storyboardName;
+    NSString *storyboardName = self.navigationItem.title;
+    NSString *deviceSpecificStoryboardName;
     // Cry device specific story board files.
     if (UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad)
-        storyboardName = [self.storyboardName stringByAppendingString:@"_iPad"];
+        deviceSpecificStoryboardName = [storyboardName stringByAppendingString:@"_iPad"];
     else
-        storyboardName = [self.storyboardName stringByAppendingString:@"_iPhone"];
-    if ([[NSBundle.mainBundle pathForResource:storyboardName ofType:@"storyboardc"] length])
+        deviceSpecificStoryboardName = [storyboardName stringByAppendingString:@"_iPhone"];
+    if ([[NSBundle.mainBundle pathForResource:deviceSpecificStoryboardName ofType:@"storyboardc"] length])
+        storyboard = [UIStoryboard storyboardWithName:deviceSpecificStoryboardName bundle:nil];
+    else
         storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
-    else
-        storyboard = [UIStoryboard storyboardWithName:self.storyboardName bundle:nil];
 
     UIViewController * scene = nil;
     
@@ -61,7 +62,7 @@
     
     NSAssert(scene,
              @"No scene found in storyboard: \"%@\" with optional identifier: \"%@\"",
-             self.storyboardName,
+             storyboardName,
              self.sceneIdentifier);
     
     _scene = scene;
