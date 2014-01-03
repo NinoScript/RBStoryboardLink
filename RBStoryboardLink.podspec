@@ -1,4 +1,4 @@
-`Pod::Spec.new do |s|
+Pod::Spec.new do |s|
   s.name         = 'RBStoryboardLink'
   s.version      = '0.1.6a'
   s.summary      = 'Makes transitioning between storyboards possible.(iOS6+)'
