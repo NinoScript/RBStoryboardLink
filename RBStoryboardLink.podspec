@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'RBStoryboardLink'
-  s.version      = '0.1.6a.1'
+  s.version      = '0.1.6a'
   s.summary      = 'Makes transitioning between storyboards possible.(iOS6+)'
   s.homepage     = 'https://github.com/rob-brown/RBStoryboardLink'
   s.license      = { 
