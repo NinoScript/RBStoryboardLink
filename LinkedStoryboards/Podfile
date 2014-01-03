@@ -1,6 +1,6 @@
 platform :ios, '7.0'
 
-pod 'RBStoryboardLink'
+pod 'RBStoryboardLink', :git => 'https://github.com/NinoScript/RBStoryboardLink'
 
 # Conditional includes for the KIF tests.
 # It is important that we don't include KIF in the main app.

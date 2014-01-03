@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F561C89A-A630-495C-935C-1194BC81C54C</string>
+	<string>D3EE4422-F848-4688-85BC-9194894FF46E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>LinkedTabs</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3368F488-1E12-4D6E-84A5-9CF4C9905939</key>
-		<string>ssh://github.com/rob-brown/RBStoryboardLink.git</string>
+		<key>6D469B56-0A0D-4FA3-BA88-2DB7F2258288</key>
+		<string>https://github.com/NinoScript/RBStoryboardLink.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>LinkedTabs/LinkedTabs.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3368F488-1E12-4D6E-84A5-9CF4C9905939</key>
+		<key>6D469B56-0A0D-4FA3-BA88-2DB7F2258288</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/rob-brown/RBStoryboardLink.git</string>
+	<string>https://github.com/NinoScript/RBStoryboardLink.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3368F488-1E12-4D6E-84A5-9CF4C9905939</string>
+	<string>6D469B56-0A0D-4FA3-BA88-2DB7F2258288</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3368F488-1E12-4D6E-84A5-9CF4C9905939</string>
+			<string>6D469B56-0A0D-4FA3-BA88-2DB7F2258288</string>
 			<key>IDESourceControlWCCName</key>
 			<string>RBStoryboardLink</string>
 		</dict>
